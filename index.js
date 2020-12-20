@@ -10,7 +10,6 @@ var DecisionTree = function(data) {
     
     if (!this.initial) throw 'DecisionTree: no initial choice(s) specified';
     return this.getChoices(this.initial);
-    
   };
   
   /* Get full choice data by specific id */
