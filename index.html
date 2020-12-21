@@ -1,24 +1,37 @@
 
 <html>
+
   <head>
     <link rel="stylesheet" href="index.css">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="index.js"></script>
   </head>
+
   <body>
 
-    <h1 id="title"></h1>
+    <div id="title-container">
 
-    <h2 id="subtitle"></h2>
-    
-    <ul id="choices"></ul>
+      <div>
+        <button id="back" class="hidden">
+          &larr;
+        </button>
+      </div>
 
-    <div id="help"></div>
-    
-    <button id="back" class="hidden">
-      Back
-    </button>
+      <div id="title"></div>
+      
+    </div>
+
+    <div id="body">
+      <div id="subtitle"></div>
+      
+      <ul id="choices"></ul>
+  
+      <div id="help"></div>
+    </div>
 
   </body>
+
 </html>

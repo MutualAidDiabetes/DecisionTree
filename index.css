@@ -1,0 +1,58 @@
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: Spartan, sans-serif;
+}
+
+#back {
+  border-radius: 5px;
+  background-color: #2f284f;
+  color: #fff;
+  cursor: pointer;
+}
+
+#title-container {
+  display: flex;
+  background-color: #F36235;
+  padding: 10px;
+}
+
+#title {
+  padding-top: 3px;
+  padding-left: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#body {
+  padding: 10px;
+}
+
+#subtitle {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  background-color: #3ba9d2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li a {
+  color: #fff;
+}
+
+li+li {
+  margin-top: 10px;
+}

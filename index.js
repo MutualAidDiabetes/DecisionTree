@@ -217,7 +217,7 @@ const data = {
 
     'path-3-deductible-unpaid': {
       name: 'My deductible is not paid',
-      subtitle: 'I live in one of the following states: CO, IL, ME, NM, NY, UT, VA, WA, WV',
+      subtitle: 'Do you live in one of the following states: CO, IL, ME, NM, NY, UT, VA, WA, WV?',
       children: [
         'path-3-deductible-states',
         'path-3-deductible-nostates'
@@ -395,6 +395,5 @@ $(() => {
 
   renderInitial();
 
-  
 });
 
